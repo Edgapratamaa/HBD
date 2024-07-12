@@ -220,7 +220,7 @@ footer {
   .letter {
     display: inline-block;
     opacity: 0;
-    animation: animateText 2s forwards;
+    animation: animateText 5s forwards;
   }
 
   @keyframes animateText {

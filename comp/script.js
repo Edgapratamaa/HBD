@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const span = document.createElement('span');
             span.textContent = letter;
             span.classList.add('letter');
-            span.style.animationDelay = `${wordIndex *  1 + letterIndex * 0.5}s`; // Delay animasi setiap huruf
+            span.style.animationDelay = `${wordIndex * 0.5 + letterIndex * 0.1}s`; // Delay animasi setiap huruf
             wordContainer.appendChild(span);
         });
 

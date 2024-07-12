@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="greeting">Happy Birthday, SAYANGKUUUUU!</h1>
+        </header>
+        <section class="intro">
+            <p id="animatedText">SELAMAT ULANG TAHUN CANTIKKU !! SEMOGA HAL BAIK SELALU MENYERTAI DI SETIAP LANGKAHMU  AAMIIN...</p>
+        </section>
+        <section class="gallery">
+            <h2>CANTIKKNYA AKUUUU</h2>
+            <div class="photos">
+                <img src="asset/1.jpg" alt="Photo 1">
+                <img src="asset/3.jpg" alt="ePhoto 2">
+                <img src="asset/5.jpg" alt="Photeo 3">
+            </div>
+        </section>
+    <!-- Audio controls -->
+    <div class="audio-controls">
+        <button id="playButton">Play</button>
+        <button id="pauseButton">Pause</button>
+        <label for="volumeControl">Volume:</label>
+        <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="0.5">
+    </div>
+
+    <audio id="backgroundMusic" loop>
+        <source src="asset/22.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
